@@ -29,4 +29,5 @@ print("Bob's Hash: ",bob_hash)
 print("Decoded Hash: ",hash(bob_message))
 
 is_equal = verify(bob_message, bob_hash)
-print("Is the message equal : ",is_equal)
+if(is_equal):
+    print("Transmission Not Tampered")
